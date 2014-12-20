@@ -1,4 +1,4 @@
-package com.cboe.ticker;
+package com.jtalics.ticker;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -12,7 +12,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.font.FontRenderContext;
-import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -303,7 +302,7 @@ public class Ticker extends JPanel implements MouseListener
             tchar.mouseReleased(e);
         }
     }
-    
+
     public void register(int word, TChar tChar)
     {
         if (wordToTChars.get(word) == null) {

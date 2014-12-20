@@ -1,7 +1,7 @@
 /**
- * 
+ *
  */
-package com.cboe.ticker;
+package com.jtalics.ticker;
 
 import java.awt.Color;
 import java.awt.FontMetrics;
@@ -10,13 +10,12 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 
 class TChar implements MouseListener
 {
     /**
-     * 
+     *
      */
     private final Ticker ticker;
     int pix = 1;
@@ -114,21 +113,21 @@ class TChar implements MouseListener
     public void mouseClicked(MouseEvent e)
     {
         // TODO Auto-generated method stub
-        
+
     }
 
     @Override
     public void mouseEntered(MouseEvent e)
     {
         // TODO Auto-generated method stub
-        
+
     }
 
     @Override
     public void mouseExited(MouseEvent e)
     {
         // TODO Auto-generated method stub
-        
+
     }
 
     @Override
@@ -146,7 +145,7 @@ class TChar implements MouseListener
     public void mouseReleased(MouseEvent e)
     {
         // TODO Auto-generated method stub
-        
+
     }
 
     public void colorizeWord()
